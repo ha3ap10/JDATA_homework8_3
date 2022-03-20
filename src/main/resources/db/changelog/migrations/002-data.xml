@@ -1,0 +1,104 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet author="anazarenko" id="002">
+        <insert schemaName="products"
+                tableName="CUSTOMERS">
+            <column name="name" value="Alexey"/>
+            <column name="surname" value="Nazarenko"/>
+            <column name="age" value="33"/>
+            <column name="phone_number" value="89260008899"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="CUSTOMERS">
+            <column name="name" value="Vasya"/>
+            <column name="surname" value="Ivanov"/>
+            <column name="age" value="25"/>
+            <column name="phone_number" value="89095653214"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="CUSTOMERS">
+            <column name="name" value="Ivan"/>
+            <column name="surname" value="Vasilev"/>
+            <column name="age" value="35"/>
+            <column name="phone_number" value="89095653225"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="CUSTOMERS">
+            <column name="name" value="Petya"/>
+            <column name="surname" value="Sidorov"/>
+            <column name="age" value="40"/>
+            <column name="phone_number" value="89095653247"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="CUSTOMERS">
+            <column name="name" value="Masha"/>
+            <column name="surname" value="Petrova"/>
+            <column name="age" value="20"/>
+            <column name="phone_number" value="89095653269"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="CUSTOMERS">
+            <column name="name" value="Sveta"/>
+            <column name="surname" value="Ivanova"/>
+            <column name="age" value="29"/>
+            <column name="phone_number" value="89095653236"/>
+        </insert>
+
+        <insert schemaName="products"
+                tableName="ORDERS">
+            <column name="customer_id" value="1"/>
+            <column name="product_name" value="productName"/>
+            <column name="amount" value="10"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="ORDERS">
+            <column name="customer_id" value="2"/>
+            <column name="product_name" value="productName1"/>
+            <column name="amount" value="10"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="ORDERS">
+            <column name="customer_id" value="1"/>
+            <column name="product_name" value="productName1"/>
+            <column name="amount" value="10"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="ORDERS">
+            <column name="customer_id" value="2"/>
+            <column name="product_name" value="productName2"/>
+            <column name="amount" value="10"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="ORDERS">
+            <column name="customer_id" value="1"/>
+            <column name="product_name" value="productName3"/>
+            <column name="amount" value="10"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="ORDERS">
+            <column name="customer_id" value="3"/>
+            <column name="product_name" value="productName"/>
+            <column name="amount" value="10"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="ORDERS">
+            <column name="customer_id" value="1"/>
+            <column name="product_name" value="productName2"/>
+            <column name="amount" value="10"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="ORDERS">
+            <column name="customer_id" value="4"/>
+            <column name="product_name" value="productName"/>
+            <column name="amount" value="10"/>
+        </insert>
+        <insert schemaName="products"
+                tableName="ORDERS">
+            <column name="customer_id" value="1"/>
+            <column name="product_name" value="productName4"/>
+            <column name="amount" value="10"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
