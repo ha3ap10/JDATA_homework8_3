@@ -1,4 +1,4 @@
-insert into products.CUSTUMERS (name, surname, age, phone_number)
+insert into products.customers (name, surname, age, phone_number)
 values ('Alexey', 'Nazarenko', 32, 89260008899),
        ('Vasya', 'Ivanov', 25, 89095653214),
        ('Ivan', 'Vasilev', 35, 89095653225),
@@ -6,7 +6,7 @@ values ('Alexey', 'Nazarenko', 32, 89260008899),
        ('Masha', 'Petrova', 20, 89095653269),
        ('Sveta', 'Ivanova', 29, 89095653236);
 
-insert into products.ORDERS (customer_id, product_name, amount)
+insert into products.orders (customer_id, product_name, amount)
 values (1, 'productName', 10),
        (2, 'productName1', 10),
        (1, 'productName1', 10),

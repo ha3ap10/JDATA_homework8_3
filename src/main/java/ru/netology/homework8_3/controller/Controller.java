@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import ru.netology.homework8_3.repository.Repository;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/products")
 public class Controller {
@@ -17,7 +19,7 @@ public class Controller {
     }
 
     @GetMapping("/fetch-product")
-    public String getProduct(@RequestParam("name") String name) {
+    public List<String> getProduct(@RequestParam("name") String name) {
         return repository.getProductName(name);
     }
 }
